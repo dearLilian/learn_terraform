@@ -6,7 +6,7 @@ terraform {
   cloud {
     organization = "wenbaoli"
     workspaces {
-      name = "learn_terraform"
+      name = "learn-terraform"
     }
   }
   
