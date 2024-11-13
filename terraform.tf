@@ -2,14 +2,14 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+  //Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "wenbaoli"
     workspaces {
-      name = "learn-terraform-provider-versioning"
+      name = "learn_terraform"
     }
   }
-  */
+  
 
   required_providers {
     random = {
